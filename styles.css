@@ -1,0 +1,136 @@
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: green;
+}
+
+.primeiro-paragrafo {
+    color: pink;
+    font-size: 22px;
+}
+
+#paragrafo-especial {
+    color: orange;
+    width: 50%;
+    font-size: 2em;
+}
+
+.exemplo-em {
+    font-size: 2rem
+}
+
+.paragrafo-1 {
+    text-decoration: underline
+}
+
+.paragrafo-1 a {
+    text-decoration: none
+}
+
+.paragrafo-1 a:hover {
+    color: yellow
+}
+
+.paragrafo-2 {
+    text-decoration: line-through
+}
+
+.paragrafo-3 {
+    text-transform: capitalize
+}
+
+.paragrafo-4 {
+    text-transform: uppercase
+}
+
+.paragrafo-5 {
+    text-align: right
+}
+
+.paragrafo-6 {
+    letter-spacing: 0.25em
+}
+
+.paragrafo-7 {
+    font-weight: 900
+}
+
+.paragrafo-8 {
+    font-family: serif
+}
+
+.paragrafo-9 {
+    font-family: sans-serif
+}
+
+.paragrafo-10 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.erro {
+    color: white;
+    background-color: red;
+}
+
+.alerta {
+    color: white;
+    background-color: rgb(211, 211, 38)
+}
+
+.sucesso {
+    color: white;
+    background-color: #1da85c
+}
+
+ol li {
+    list-style-type: upper-roman;
+}
+
+ul li {
+    list-style-type: square;
+    color: blue;
+    line-height: 1.6;
+}
+
+ul li:nth-child(2) {
+    color: brown
+}
+
+
+.box-model {
+    height: 100px;
+    width: 300px;
+    border: 3px solid blue;
+    padding: 20px;
+    margin: 0 0 0 20px
+}
+
+.img-fotografa img {
+    width: 35%;
+    border: 5px double gray;
+    border-radius: 50%;
+}
+
+
+.display-inline {
+    background-color: yellow;
+    display: inline;
+    width: 400px;
+
+}
+
+.display-block {
+    background-color: red;
+    display: block;
+    width: 400px;
+    height: 20px;
+}
+
+.display-inline-block {
+    background-color: green;
+    display: inline-block;
+    width: 400px
+}
